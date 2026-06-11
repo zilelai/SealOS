@@ -5,3 +5,7 @@ Before using my project, please follow these instructions:
 3. Use the source code however u want just that don't use it improperly
 4. Hope you like it :)
 5. If you don't know any commands, use help in sealscript
+
+
+
+RUN WITHOUT SETUP: https://codepad.app/pad/xt67l97o
