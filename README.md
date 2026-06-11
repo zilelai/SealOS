@@ -7,5 +7,14 @@ Before using my project, please follow these instructions:
 5. If you don't know any commands, use help in sealscript
 
 
+To run SealOS7, you should first download raylib
+
+Fedora: sudo dnf install raylib-devel
+Debian: sudo apt install raylib-devel
+Arch: sudo pacman -S raylib
+Windows: use official .zip file for raylib
+MacOS: brew install raylib
+
+
 
 RUN WITHOUT SETUP: https://codepad.app/pad/xt67l97o
