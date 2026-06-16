@@ -17,4 +17,12 @@ MacOS: brew install raylib
 
 
 
+To run your program in linux terminal, first:
+
+-nano sealos.cpp
+-code paste
+-gcc sealos.cpp -o sealos
+-./sealos
+
+
 RUN WITHOUT SETUP: https://codepad.app/pad/xt67l97o
