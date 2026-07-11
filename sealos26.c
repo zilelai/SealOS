@@ -629,8 +629,8 @@ void process_system_command(char *input) {
         printf("game6 - Reaction Time Test\n");
         printf("game7 - conquer country games\n");
         printf("bool - system-controlled true-false answer\n");
-        printf("ls-t - check file type");
-        printf("ls-dt - check file type and in advance");
+        printf("ls-t - check file type\n");
+        printf("ls-dt - check file type and in advance\n");
     }
     else if (strcmp(cmd, "echo") == 0) {
         printf("%s\n", input + (strlen(input) > 4 ? 5 : 0));
