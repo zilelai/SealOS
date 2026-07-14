@@ -461,7 +461,7 @@ void process_system_command(char *input) {
             printf("       ....:::::^^^~~^^^:^~ : ^:::^^.......       \n");
             printf("                   .......^:~^~~^^.               \n");
             printf("\n");
-        printf("SealKernel 27 \n");
+        printf("SealKernel 28 \n");
         printf("Code Env.: CodePad\n");
         printf("PC Info: Virtual\n");
         printf("Copyleft SealKernel from ZL Project\n"); 
@@ -499,7 +499,7 @@ void process_system_command(char *input) {
 
         fclose(fp);
 
-        printf("SealKernel 27 \n");
+        printf("SealKernel 28 \n");
         
         printf("Code Env.: VM\n");
         
@@ -564,10 +564,10 @@ void process_system_command(char *input) {
         else if (superior == 1) printf("superior/%s\n", locations[loc]);
     }
     else if (strcmp(cmd, "version") == 0) {
-        printf("SealKernel 26\n");
+        printf("SealKernel 28\n");
     }
     else if (strcmp(cmd, "release") == 0){
-        printf("SealKernel 10 - can check size of variable class and can check version and release.\n");printf("SealKernel 11 - added curl to grab data from one site and added fast OS specification.\n");printf("SealKernel 12 [BETA] - added tsastream command to check streaming marks for TSIS student\n");printf("SealKernel 13 - Added calculator function andd improved tsastream\n"); printf("SealKernel 14 [BETA] - added tic tac toe game\n");printf("SealKernel 15 - added check storage in main.cpp\n");printf("SealKernel 16 - added check storage in main.cpp inside quick and about and removed TIC TAC TOE for ROCK PAPER SCISSORS game\n");printf("SealKernel 17 - fixed rock paper scissors game and added guess the number game\n"); printf ("SealKernel 18 - changed file locations and changed space-main.cpp to space. Also fixed game1\n");printf("SealKernel 19 - added game3 and game4 and also restricted exit command only for sudo user\n");printf("SealKernel 20 - added dice feature\n");printf("SealKernel 21 - fixed tsastream and removed quick and about for monthly cleaning (July)\n");    printf("SealKernel 22 - Improved tsastream\n");printf("SealKernel 23 - added luck program, element program and game5. Also improved pad function\n");printf("SealKernel 24 - added speed reaction game\n");printf("SealKernel25 - Added conquer country game and also added bool. Also addded more space function (check out in help)\n");printf("SealKernel26 - changed entire ls family, changed file structure\n");printf("SealKernel27 - changed entire code structure of calculator\n");}
+        printf("SealKernel 10 - can check size of variable class and can check version and release.\n");printf("SealKernel 11 - added curl to grab data from one site and added fast OS specification.\n");printf("SealKernel 12 [BETA] - added tsastream command to check streaming marks for TSIS student\n");printf("SealKernel 13 - Added calculator function andd improved tsastream\n"); printf("SealKernel 14 [BETA] - added tic tac toe game\n");printf("SealKernel 15 - added check storage in main.cpp\n");printf("SealKernel 16 - added check storage in main.cpp inside quick and about and removed TIC TAC TOE for ROCK PAPER SCISSORS game\n");printf("SealKernel 17 - fixed rock paper scissors game and added guess the number game\n"); printf ("SealKernel 18 - changed file locations and changed space-main.cpp to space. Also fixed game1\n");printf("SealKernel 19 - added game3 and game4 and also restricted exit command only for sudo user\n");printf("SealKernel 20 - added dice feature\n");printf("SealKernel 21 - fixed tsastream and removed quick and about for monthly cleaning (July)\n");    printf("SealKernel 22 - Improved tsastream\n");printf("SealKernel 23 - added luck program, element program and game5. Also improved pad function\n");printf("SealKernel 24 - added speed reaction game\n");printf("SealKernel 25 - Added conquer country game and also added bool. Also addded more space function (check out in help)\n");printf("SealKernel 26 - changed entire ls family, changed file structure\n");printf("SealKernel 27 - changed entire code structure of calculator\n");printf("SealKernel 28 - added move function and changed execute function\n");}
     else if (strcmp(cmd, "ls") == 0) {
         DIR *dir;
         struct dirent *entry;
@@ -642,6 +642,7 @@ void process_system_command(char *input) {
         printf("bool - system-controlled true-false answer\n");
         printf("ls-t - check file type\n");
         printf("ls-dt - check file type and in advance\n");
+        printf("mv - move file\n");
     }
     else if (strcmp(cmd, "echo") == 0) {
         printf("%s\n", input + (strlen(input) > 4 ? 5 : 0));
@@ -1743,7 +1744,7 @@ int main() {
         fprintf(file, "https://codepad.app/pad/822052z5n");
         fclose(file);
     }
-    printf("SealKernel 27\n");
+    printf("SealKernel 28\n");
     printf("A project by ZileLai\n");
     printf("if don't know any command, use 'help'\n");
 
