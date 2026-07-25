@@ -1,4 +1,4 @@
-Before using my project, please follow these instructions:
+<h1>Before using my project, please follow these instructions:</h1>
 
 1. Source code is available.
 2. Any support please contact zilelai26@gmail.com I might contact you within a week
@@ -26,3 +26,7 @@ To run your program in linux terminal, first:
 
 
 RUN WITHOUT SETUP: https://codepad.app/pad/xt67l97o
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Seal
