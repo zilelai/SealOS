@@ -1,13 +1,13 @@
 <h1>Before using my project, please follow these instructions:</h1>
 
 1. Source code is available.
-2. Any support please contact zilelai26@gmail.com I might contact you within a week
+2. Any support please contact zlprojects.sealkernel@gmail.com I might contact you within a week
 3. Use the source code however u want just that don't use it improperly
 4. Hope you like it :)
 5. If you don't know any commands, use help in sealscript
 
 
-To run SealOS7, you should first download raylib
+<h2>To run SealOS7, you should first download raylib: </h2>
 
 Fedora: sudo dnf install raylib-devel
 Debian: sudo apt install raylib-devel
@@ -15,18 +15,31 @@ Arch: sudo pacman -S raylib
 Windows: use official .zip file for raylib
 MacOS: brew install raylib
 
+<h3>Then follow the next step if you are a linux user.</h3>
 
 
-To run your program in linux terminal, first:
+<h2>To run your program in linux terminal, first:</h2>
 
--nano sealos.c
--code paste
--gcc sealos.c -o sealoslatest -lm (sealkernel 27 and above), gcc sealos.c -o sealos (sealkernel 26 and below)
--./sealos
+-1. nano sealos.c
+-2. code paste
+-3. gcc sealos.c -o sealoslatest -lm (sealkernel 27 and above), gcc sealos.c -o sealos (sealkernel 26 and below)
+-4. ./sealos
 
 
 RUN WITHOUT SETUP: https://codepad.app/pad/xt67l97o
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Seal
+<h1>SealKernel/SealOS</h1>
+<h2>What is SealKernel</h2>
+SealKernel is my personally developed "kind-of-like-an-OS" project. It can do file management, read, write and execute files, play RPG games and much more. It also contains bootloader or boot menu which you can select either the latest version or the stable version chosen by me <i>ONLY IN CODEPAD.APP!!!</i>
+
+I created SealKernel on May 13th 2026 and the person that inspired me is ***TempleOS*** created by ***Terry A. Davis***
+
+It also contains an EDU version, which it more focuces on education and class streaming
+
+To support me or give reccomendations, either issue an issues or DM me in ***zlprojects.sealkernel@gmail.com***
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+made with love by ***zilelai***
